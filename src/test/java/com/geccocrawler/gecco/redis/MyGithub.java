@@ -109,7 +109,7 @@ public class MyGithub implements HtmlBean {
 
 	public static void main(String[] args) {
 		GeccoEngine.create()
-		.scheduler(new RedisStartScheduler())
+		.scheduler(new RedisStartScheduler("127.0.0.1:6379"))
 		.classpath("com.geccocrawler.gecco.demo")
 		.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36")
 		.start("https://github.com/xtuhcy/gecco")
