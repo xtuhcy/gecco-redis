@@ -10,7 +10,7 @@ gecco爬虫通过将初始的start request放入redis的队列进行分布式抓
 	<dependency>
 	    <groupId>com.geccocrawler</groupId>
 	    <artifactId>gecco-redis</artifactId>
-	    <version>1.0.0</version>
+	    <version>1.0.3</version>
 	</dependency>
 
 ##QuickStart
@@ -20,8 +20,6 @@ gecco爬虫通过将初始的start request放入redis的队列进行分布式抓
 	GeccoEngine.create()
 	.scheduler(new RedisStartScheduler("127.0.0.1:6379"))
 	.classpath("com.geccocrawler.gecco.demo")
-	//爬虫userAgent设置
-	.userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36")
 	//开始抓取的页面地址
 	.start("https://github.com/xtuhcy/gecco")
 	//开启几个爬虫线程
