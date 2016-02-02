@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.geccocrawler</groupId>
 	<artifactId>gecco-redis</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 
 	<dependencies>
 		<dependency>
@@ -14,7 +14,7 @@
 		<dependency>
 			<groupId>com.geccocrawler</groupId>
 			<artifactId>gecco</artifactId>
-			<version>1.0.3</version>
+			<version>1.0.4</version>
 		</dependency>
 	</dependencies>
 	
