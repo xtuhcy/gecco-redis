@@ -10,7 +10,7 @@ gecco爬虫通过将初始的start request放入redis的队列进行分布式抓
 	<dependency>
 	    <groupId>com.geccocrawler</groupId>
 	    <artifactId>gecco-redis</artifactId>
-	    <version>1.0.4</version>
+	    <version>1.0.5</version>
 	</dependency>
 
 ##QuickStart
